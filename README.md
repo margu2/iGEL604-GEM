@@ -7,11 +7,11 @@ The included scripts are dependent on the RAVEN (https://github.com/SysBioChalme
 
 Scripts: Folder containing all scripts used in the project.
 
-Data: Folder containing input data needed to generate iGEL601
+Data: Folder containing input data needed to generate iGEL601, and data obtained from flux sampling
 
 Models: Folder containing the final model, iGEL601, in different formats for compatibility.
 
-SamplingData: Folder containing flux distributions for the different scenarios analysed by flux sampling
+Memote: Folder containing the Memote report of iGEL601
 
 
 #### Description
@@ -21,6 +21,7 @@ SamplingData: Folder containing flux distributions for the different scenarios a
 
 #### Citation
 
+### Keywords
 
 **Utilisation:** Experimental data reconstruction; _in silico_ strain design; model template 
 **Field:** Metabolic-network reconstruction  
