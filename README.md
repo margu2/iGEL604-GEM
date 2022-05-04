@@ -1,7 +1,7 @@
 # iGEL601
 This repository contains Matlab scripts and supporting data for the manuscript "_In silico_ analysis of the fast-growing thermophile _Geobacillus_ sp. LC300 using a novel genome-scale metabolic model" by Emil Ljungqvist and Martin Gustavsson. 
 
-The included scripts are dependent on the [RAVEN](https://github.com/SysBioChalmers/RAVEN) and [COBRA](https://opencobra.github.io/cobratoolbox/stable/) toolboxes for model reconstruction and analysis. To recreate the procedure described in the manuscript, start from the script file "master.m" to generate the model iGEL601.
+The included scripts are dependent on the [RAVEN](https://github.com/SysBioChalmers/RAVEN) and [COBRA](https://opencobra.github.io/cobratoolbox/stable/) Matlab toolboxes for model reconstruction and analysis. To recreate the procedure described in the manuscript, start from the script file "master.m" to generate the model iGEL601.
 
 # File structure
 
