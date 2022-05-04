@@ -35,10 +35,8 @@ SamplingData: Folder containing flux distributions for the different scenarios a
 
 **Utilisation:** {{ experimental data reconstruction; multi-omics integrative analysis;, _in silico_ strain design; model template }}  
 **Field:** {{ metabolic-network reconstruction }}  
-**Type of model:** {{ reconstruction; curated }}  
-**Model source:** {{ [YeastMetabolicNetwork](http://doi.org/10.1038/nbt1492) }}  
-**Omic source:** {{ genomics; metabolomics }}  
-**Taxonomic name:** {{ _Saccharomyces cerevisiae_ }}  
+**Type of model:** Genome-scale  
+**Taxonomic name:** {{ _Geobacillus_ sp. LC300 }}  
 **Taxonomy ID:** {{ [taxonomy:559292](https://identifiers.org/taxonomy:559292) }}  
 **Genome ID:** {{ [insdc.gca:GCA_000146045.2](https://identifiers.org/insdc.gca:GCA_000146045.2)  }}  
 **Metabolic system:** {{ general metabolism }}  
@@ -48,12 +46,6 @@ SamplingData: Folder containing flux distributions for the different scenarios a
 **Cell line:**  
 **Strain:** {{ S288C }}  
 **Condition:** {{ aerobic; glucose-limited; defined media }}  
-
-
-### Installation
-
-{{ Be mindful of users who do not have a typical background - provide a clear overview of the required software. Also, there might be different requirements for users and collaborators. }}
-
 
 ### Usage
 
