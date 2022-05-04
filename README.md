@@ -28,7 +28,7 @@ Memote: Folder containing the Memote report of iGEL601
 **Type of model:** Genome-scale  
 **Taxonomic name:** _Geobacillus_ sp. LC300  
 **Taxonomy ID:** [taxonomy:1519377](https://identifiers.org/taxonomy:1519377)  
-**Genome ID:** GCA_001191625.1(https://www.ncbi.nlm.nih.gov/assembly/GCF_001191625.1)
+**Genome ID:** [GCA_001191625.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_001191625.1)
 **Metabolic system:** General metabolism
 **Bioreactor:** Belach Bioteknik GRETA system
 **Condition:** Aerobic; Defined media; 
