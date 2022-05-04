@@ -70,7 +70,7 @@ clear ADDRXN
 
 %ABC importers
 ADDRXNimport.rxns={'Xylose_import','Molybdate_import','VitB12_import', 'PyrHCl_import', 'Thiamine_import', 'Nicotinate_import', 'Aminobenzoate_import',...
-                   'Biotin_import', 'Folate_import', 'Iron_import', 'Phosphate_import', 'Glucose_import(ABC)','Galactose_import'};
+                   'Biotin_import', 'Folate_import', 'Iron_import', 'Phosphate_import', 'Glucose_importABC','Galactose_import'};
 ADDRXNimport.equations={'C00181 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C00181_e + 2 C00001','C06232 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C06232_e + 2 C00001',...
                         'C00853 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C00853_e + 2 C00001','C00314 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C00314_e + 2 C00001',...
                         'C00378 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C00378_e + 2 C00001','C00253 + 2 C00009 + 2 C00008 + 2 C00080 => 2 C00002 + C00253_e + 2 C00001',...
@@ -85,7 +85,7 @@ model1=changeGeneAssoc(model1,'Biotin_import','IB49_06815 or IB49_07190',true);
 model1=changeGeneAssoc(model1,'Xylose_import','IB49_01410 and IB49_01390',true);
 model1=changeGeneAssoc(model1,'Molybdate_import','IB49_05405 and IB49_14195',true);
 model1=changeGeneAssoc(model1,'Phosphate_import','IB49_04110 and IB49_04100 and IB49_04075',true);
-model1=changeGeneAssoc(model1,'Glucose_import(ABC)','IB49_08495 and IB49_08490 and IB49_08485 and IB49_13425',true);
+model1=changeGeneAssoc(model1,'Glucose_importABC','IB49_08495 and IB49_08490 and IB49_08485 and IB49_13425',true);
 %Galactose import has unknown gene relationship. Possibly done by Glucose
 %ABC importer or PTS system.
 importrxns=[importrxns; ADDRXNimport.rxns'];
