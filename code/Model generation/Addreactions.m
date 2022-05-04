@@ -175,7 +175,7 @@ clear ADDRXNppi
 
 
 % CO2 to Carbonate
-ADDRXNbicarb.rxns={'CO2_to_H2Carbonate', 'H2Carbonate_to_Carbonate'};
+ADDRXNbicarb.rxns={'CO2toH2Carbonate', 'H2CarbonatetoCarbonate'};
 ADDRXNbicarb.equations={'C00011 + C00001 => C01353', 'C01353 => C00080 + C00288'};
 ADDRXNbicarb.lb=[-1000, -1000];
 ADDRXNbicarb.ub=[1000, 1000];
@@ -184,12 +184,12 @@ addedReactions=[addedReactions; ADDRXNbicarb.rxns'];
 clear ADDRXNbicarb
 
 % Heme synthesis. Change from tRNA-dependent reaction
-ADDRXNheme.rxns={'Glu->PreHeme'};
+ADDRXNheme.rxns={'GlutoPreHeme'};
 ADDRXNheme.equations={'C00025 + C00002 + C00005 + C00080 => C03741 + C00006 + C00013 + C00020'};
 ADDRXNheme.lb=0;
 ADDRXNheme.ub=1000;
 model1=addRxns(model1, ADDRXNheme, 1, 'c', false, false);
-model1=changeGeneAssoc(model1,'Glu->PreHeme','IB49_05115',true);
+model1=changeGeneAssoc(model1,'GlutoPreHeme','IB49_05115',true);
 addedReactions=[addedReactions; ADDRXNheme.rxns'];
 clear ADDRXNheme
 
@@ -420,12 +420,6 @@ model1=addRxns(model1, EXRXNac, 1, 'c', false, false);
 clear EXRXNac
 
 %3HB thioesterase
-% addmets.mets={'C01089'};
-% addmets.metNames={'(R)-3-hydroxybutyrate'};
-% addmets.compartments={'c'};
-% addmets.metFormulas={'C4H7O3'};
-% addmets.metCharges=[-1];
-% model1=addMets(model1, addmets);
 addrxn.rxns={'3HB_thioesterase'};
 addrxn.equations={'C03561 + C00001 <=> C01089 + C00010'};
 addrxn.lb=0;
