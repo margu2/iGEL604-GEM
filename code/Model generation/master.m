@@ -12,7 +12,7 @@ model1=load('gel_base_model.mat')
   
 
 % The base KEGG gel model for gene comparison
-model=load('gel_reference_model');
+model=load('gel_reference_model.mat');
 
 model1.comps{1,1}='c';
 model1.compNames{1,1}='Cytosol';
@@ -77,6 +77,7 @@ model1=setParam(model1,'obj',{'Biomass'},1);
 
 %Checks for unbalanced reactions and metabolites without metFormula, 
 % automatically computes the formulas and balances reactions with H+. 
+% This will generate a bunch of warnings, but not to worry - all reactions will be balanced anyways.
 % Also removes reactions with carbon and oxygen imbalance. 
 checkbalance
 
