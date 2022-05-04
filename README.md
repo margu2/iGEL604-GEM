@@ -5,7 +5,7 @@ The included scripts are dependent on the RAVEN (https://github.com/SysBioChalme
 
 # File structure
 
-Scripts: Folder containing all scripts used in the project.
+Code: Folder containing all scripts used in the project.
 
 Data: Folder containing input data needed to generate iGEL601, and data obtained from flux sampling
 
