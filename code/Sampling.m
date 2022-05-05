@@ -8,7 +8,7 @@ productOptPercent_reference = 95;  % Gives 90% product formation as lower bound 
 biomassOptPercent = 75;  % Gives 75% biomass formation as lower bound
 productOptPercent = 90;  % Gives 90% product formation as lower bound (at 75% growth)
 %% Model import
-modelFileName = 'LC300/Models/iGEL601_experimental_data_update_2.mat';
+modelFileName = 'iGEL601.mat';
 
 model = readCbModel(modelFileName);
 
@@ -29,8 +29,8 @@ model_3HB_glc = setUpGlcmodel(model_3HB);
 model_3HB_xyl = setUpXylmodel(model_3HB);
 
 % Prepare for sampling
-model_3HB_glc_for_sampling = prepareForSampling(model_3HB_glc, 'Biomass', 'EX_3HB', biomassOptPercent, productOptPercent);
-model_3HB_xyl_for_sampling = prepareForSampling(model_3HB_xyl, 'Biomass', 'EX_3HB', biomassOptPercent, productOptPercent);
+model_3HB_glc_for_sampling = prepareForSampling(model_3HB_glc, 'Biomass', 'EX_3HB', biomassOptPercent, productOptPercent, 'max');
+model_3HB_xyl_for_sampling = prepareForSampling(model_3HB_xyl, 'Biomass', 'EX_3HB', biomassOptPercent, productOptPercent, 'max');
 
 %% General models for glc and xyl
 model=setParam(model, 'ub', {'EX_Succinate'}, 1000)
@@ -39,8 +39,8 @@ model_xyl = setUpXylmodel(model);
 
 %%
 % Prepare for substrate uptake optimiziation (reference sampling)
-model_glc_for_sampling = prepareForSampling(model_glc, 'Biomass', 'EX_Glucose', biomassOptPercent_reference, productOptPercent_reference);
-model_xyl_for_sampling = prepareForSampling(model_xyl, 'Biomass', 'EX_Xylose', biomassOptPercent_reference, productOptPercent_reference);
+model_glc_for_sampling = prepareForSampling(model_glc, 'Biomass', 'EX_Glucose', biomassOptPercent_reference, productOptPercent_reference, 'min');
+model_xyl_for_sampling = prepareForSampling(model_xyl, 'Biomass', 'EX_Xylose', biomassOptPercent_reference, productOptPercent_reference, 'min');
 
 %% Sampling parameters
 options.nStepsPerPoint = 200;  % Default
@@ -81,7 +81,7 @@ writetable(k, 'Escher/SamplingFluxes_3HB_xyl_stdev.txt');
 
 
 %%
-% Reference Sampling optimizing sugar uptake for determining Z score
+% Reference Sampling optimizing sugar uptake for determining flux fold change
 model_glc_for_sampling=changeRxnBounds(model_glc_for_sampling,'R01976',0,'u')
 % 95% biomass lb, 95% EX_Glc lb, glucose
 [M_glc_Bio, X_glc_Bio] = sampleCbModel(model_glc_for_sampling, 'temp_sampling_output/glc_Bio', 'ACHR', options);
@@ -117,7 +117,7 @@ writetable(k, 'Escher/SamplingFluxes_Bio_xyl_stdev.txt');
 
 
 %% Function definitions
-function samplingModel = prepareForSampling(model, rxn1, rxn2, optPercent1, optPercent2)
+function samplingModel = prepareForSampling(model, rxn1, rxn2, optPercent1, optPercent2, optRxn_direction)
 %PREPAREFORSAMPLING Local function that sets a model up for sampling
     model = changeObjective(model, rxn1, 1);
     blockedRxns = findBlockedReaction(model);  % Finds reactions that can't carry flux
@@ -131,7 +131,7 @@ function samplingModel = prepareForSampling(model, rxn1, rxn2, optPercent1, optP
     
     
     % Remove loops. Change input 3 to 'max' if maximizing biomass or product formtion. Set to 'min' if maximizing sugar uptake (negative flux)     
-    [minflux,maxflux] = fluxVariability(model,optPercent2,'min',model.rxns,0,0);  % Gets max and min flux for each reactions without loops
+    [minflux,maxflux] = fluxVariability(model,optPercent2,optRxn_direction,model.rxns,0,0);  % Gets max and min flux for each reactions without loops
     model = changeRxnBounds(model, model.rxns, maxflux, 'u');  %  Sets upper reaction bounds
     model = changeRxnBounds(model, model.rxns, minflux, 'l');  %  Sets lower reaction bounds
     
