@@ -7,11 +7,11 @@ The included scripts are dependent on the [RAVEN](https://github.com/SysBioChalm
 
 Code: Folder containing all scripts used in the project.
 
-Data: Folder containing input data needed to generate iGEL601, and data obtained from flux sampling
+Data: Folder containing input data needed to generate iGEL604, and data obtained from flux sampling
 
-Models: Folder containing the final model, iGEL601, in different formats for compatibility.
+Models: Folder containing the final model, iGEL604, in different formats for compatibility.
 
-Memote: Folder containing the Memote report of iGEL601
+Memote: Folder containing the Memote report of iGEL604
 
 
 #### Description
