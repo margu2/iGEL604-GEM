@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 20:54:57
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-204506-0210-36338962-p1m.asequence
+#    -bsequence emboss_needle-I20220922-204506-0210-36338962-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU26253.1
+# 2: AKU26253.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 516
+# Identity:      56/516 (10.9%)
+# Similarity:    58/516 (11.2%)
+# Gaps:         454/516 (88.0%)
+# Score: 287.5
+# 
+#
+#=======================================
+
+AKU26253.1         1 MKHDHISFKEYTMDNLSLPSNIADLIPRDNMAHVVHEMVERIPMETFLAY     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU26253.1_mo      1 MKHDHISFKEYTMDNLSLPSNIADLIPRDNMAHVVHEMVERIPMETFLAY     50
+
+AKU26253.1        51 YKGGAP----PPIIRK----------------------------------     62
+                     ||||..    |.::.|                                  
+AKU26253.1_mo     51 YKGGGASAYHPKMMTKILLYAYTQKMYHGREIARQLEVHLPLMWLSGFQK    100
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    101 PDFRSINRFRSERMKDLIDDLFREMITLLVADGYVKMEDYFVDGTKIEAN    150
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    151 ANRYTFVWRKSAEKYQEKLQANVDRLIAQIEAIVEEEKAEDIDPSPAFTS    200
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    201 EEIRKKTEEWEKRLEAEPDNQPLKKAIKKMKEDYLPRSEKYEHQLHVCGD    250
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    251 RNSYSKTDVDATFMRLKEDHMRNGQLKPAYNVQVGSSGQFILGYSLHQRP    300
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    301 GDTRCLLPHLETVREKYGVEPERLIADAAYGSEENYVKLEEKHISALIKY    350
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    351 HTYEKENTRKVKKNPHHQQNWTYVEEEDVWICANGKKLVRTGTSKQTTES    400
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    401 GYTSVTRHYQCHECEGCPFRSACTTSKYGRTTQWNPVYHEQKQKARERLE    450
+
+AKU26253.1        63 --------------------------------------------------     62
+                                                                       
+AKU26253.1_mo    451 SEEGQARYRQRQTDIESVFGQIKQNRGFRRFVLRGLQKVSIEWGLVCVAH    500
+
+AKU26253.1        63 ----------------     62
+                                     
+AKU26253.1_mo    501 NLLKKAARDKQLSLVA    516
+
+
+#---------------------------------------
+#---------------------------------------

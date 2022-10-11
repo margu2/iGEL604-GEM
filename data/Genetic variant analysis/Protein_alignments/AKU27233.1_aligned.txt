@@ -1,0 +1,49 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 20:58:31
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-205830-0440-29571793-p2m.asequence
+#    -bsequence emboss_needle-I20220922-205830-0440-29571793-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27233.1
+# 2: AKU27233.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      14/68 (20.6%)
+# Similarity:    14/68 (20.6%)
+# Gaps:          49/68 (72.1%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+AKU27233.1         1 MRKERNHGAERSGRQDALYEGRDEYYMDIDRMINEGMAGGVVHGRGDEVN     50
+                     |||||||||||||....|.                               
+AKU27233.1_mo      1 MRKERNHGAERSGAPRRLI-------------------------------     19
+
+AKU27233.1        51 IEEARDLVKEEPPYDAGE     68
+                                       
+AKU27233.1_mo     20 ------------------     19
+
+
+#---------------------------------------
+#---------------------------------------

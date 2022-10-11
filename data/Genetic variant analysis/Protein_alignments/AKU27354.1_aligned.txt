@@ -1,0 +1,57 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:10:33
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-210738-0570-75511867-p1m.asequence
+#    -bsequence emboss_needle-I20220922-210738-0570-75511867-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27354.1
+# 2: AKU27354.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:     145/176 (82.4%)
+# Similarity:   145/176 (82.4%)
+# Gaps:          31/176 (17.6%)
+# Score: 744.0
+# 
+#
+#=======================================
+
+AKU27354.1         1 MKQRMSSLLSVALAASLLAACSNGGGGEAKAENKNGTAATTQQSAANMLA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27354.1_mo      1 MKQRMSSLLSVALAASLLAACSNGGGGEAKAENKNGTAATTQQSAANMLA     50
+
+AKU27354.1        51 AHKGVNQAPVPLKMERVGPHDVHIEMTAQITDIEIDKGKTYYTAVKRKRS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27354.1_mo     51 AHKGVNQAPVPLKMERVGPHDVHIEMTAQITDIEIDKGKTYYTAVKRKRS    100
+
+AKU27354.1       101 DSHHNRKKKSVRQAANNGRSGVLLISAPKWLGRCCVSKGNDQTDPNYGAR    150
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+AKU27354.1_mo    101 DSHHNRKKKSVRQAANNGRSGVLLISAPKWLGRCCVSKGNDQTDP-----    145
+
+AKU27354.1       151 LTQCNKYPPDSLRIEFPFSNSLNHEP    176
+                                               
+AKU27354.1_mo    146 --------------------------    145
+
+
+#---------------------------------------
+#---------------------------------------

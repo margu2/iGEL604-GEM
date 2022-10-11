@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:13:57
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-211302-0230-86527848-p1m.asequence
+#    -bsequence emboss_needle-I20220922-211302-0230-86527848-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27807.1
+# 2: AKU27807.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:       7/121 ( 5.8%)
+# Similarity:     7/121 ( 5.8%)
+# Gaps:         114/121 (94.2%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+AKU27807.1         1 MERWLPFLIADDAKFMRVTLARILEKTDHTVAGEAENGKEAVELYRRLRP     50
+                     |||||||                                           
+AKU27807.1_mo      1 MERWLPF-------------------------------------------      7
+
+AKU27807.1        51 DLVIMDITMPVMNGIEAVRAIKEIDPGAKIIICSALGQQRMVVEAIEAGA    100
+                                                                       
+AKU27807.1_mo      8 --------------------------------------------------      7
+
+AKU27807.1       101 ADFIVKPFEETRVLEAIARLL    121
+                                          
+AKU27807.1_mo      8 ---------------------      7
+
+
+#---------------------------------------
+#---------------------------------------

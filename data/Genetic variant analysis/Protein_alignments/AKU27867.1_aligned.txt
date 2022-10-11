@@ -1,0 +1,49 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:18:15
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-211905-0421-70661013-p1m.asequence
+#    -bsequence emboss_needle-I20220922-211905-0421-70661013-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27867.1
+# 2: AKU27867.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      25/94 (26.6%)
+# Similarity:    33/94 (35.1%)
+# Gaps:          40/94 (42.6%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+AKU27867.1         1 MGAEDVAEIVCQRACKEAMIAGMFSSRKMTFVFSWQYK-------SHGER     43
+                     ||||||||||||||.:..      ..|:..|:....::       :.|.:
+AKU27867.1_mo      1 MGAEDVAEIVCQRALQGG------DDRRDVFLAQDDFRFLLAVQVARGTK     44
+
+AKU27867.1        44 NVLGRLFLF--------------SSSKGASLP------------     61
+                     .| |..|.|              |...|||:.            
+AKU27867.1_mo     45 RV-GAAFSFRFRLQKVPLSPNRKSGRGGASIHRPSGIGDDHSAV     87
+
+
+#---------------------------------------
+#---------------------------------------

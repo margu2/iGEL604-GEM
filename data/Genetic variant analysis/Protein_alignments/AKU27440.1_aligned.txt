@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:09:43
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-210939-0325-33804426-p2m.asequence
+#    -bsequence emboss_needle-I20220922-210939-0325-33804426-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27440.1
+# 2: AKU27440.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:      10/360 ( 2.8%)
+# Similarity:    16/360 ( 4.4%)
+# Gaps:         333/360 (92.5%)
+# Score: 11.5
+# 
+#
+#=======================================
+
+AKU27440.1         1 MHWGIAAVLSFIVIAFIFIKRKKITCMAGMMAAMALGMLAGLTGGLLAGI     50
+                                                                       
+AKU27440.1_mo      1 --------------------------------------------------      0
+
+AKU27440.1        51 SYNGNLFLSTILGMAFGFLAGFLAGMPISIMAIIDGVLSGVMGGMMGAML    100
+                                                                       
+AKU27440.1_mo      1 --------------------------------------------------      0
+
+AKU27440.1       101 GEMIAPEYRDSTVHIMLVLFVGMACIVLYMLQQETGFNRVFLINKLFHNP    150
+                                                                       
+AKU27440.1_mo      1 --------------------------------------------------      0
+
+AKU27440.1       151 LWLAIVLPLFFYLYNHLYNEFSRSSNLPITNPPMNHFMDGHNQTASPLSI    200
+                                                                       
+AKU27440.1_mo      1 --------------------------------------------------      0
+
+AKU27440.1       201 ETKGKKVVVEATEFYYFPESLQLTVGQPVTLILKNSGQMEHDIEFENMKI    250
+                                                                       
+AKU27440.1_mo      1 --------------------------------------------------      0
+
+AKU27440.1       251 LLQQNDHGNHAENADVHVHSLPGKTAEVTFIPI---ERGVFRFYCT----    293
+                                                     :   :||.|.|:|.    
+AKU27440.1_mo      1 --------------------------------MHWGDRGGFVFHCDCFHL     18
+
+AKU27440.1       294 -------VPGHKESG----MVGFAKVS-----------------------    309
+                            :.|..:.|    .||:|...                       
+AKU27440.1_mo     19 YQKEENHMHGWNDGGDGVRNVGWADRRPAGWDFLQRQSLFVNHFRNGFRV     68
+
+AKU27440.1       310 ----------    309
+                               
+AKU27440.1_mo     69 FSWIFSRDAD     78
+
+
+#---------------------------------------
+#---------------------------------------

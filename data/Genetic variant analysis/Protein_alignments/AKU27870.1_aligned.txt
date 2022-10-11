@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:18:49
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-212637-0854-58541555-p2m.asequence
+#    -bsequence emboss_needle-I20220922-212637-0854-58541555-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27870.1
+# 2: AKU27870.1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:     303/309 (98.1%)
+# Similarity:   303/309 (98.1%)
+# Gaps:           1/309 ( 0.3%)
+# Score: 1548.0
+# 
+#
+#=======================================
+
+AKU27870.1         1 MHHHEHGHCGHHHGHHHGLGREGSQKGLAAALVITVGIMVLEFVGGLVTN     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27870.1         1 MHHHEHGHCGHHHGHHHGLGREGSQKGLAAALVITVGIMVLEFVGGLVTN     50
+
+AKU27870.1        51 SLALLSDSGHMLSDAASLLLSLLAVCFAARPASPKRTYGFYRFEILAALV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27870.1        51 SLALLSDSGHMLSDAASLLLSLLAVCFAARPASPKRTYGFYRFEILAALV    100
+
+AKU27870.1       101 NGVALVGIAAWIIWEAVARFVNPPAVASGPMMAIAVIGLLANLASAWVLM    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27870.1       101 NGVALVGIAAWIIWEAVARFVNPPAVASGPMMAIAVIGLLANLASAWVLM    150
+
+AKU27870.1       151 RKGDVKENVNVRSAYLHVLGDALGSVGRSRRGL-SWLFDWYAADPLISIA    199
+                     |||||||||||||||||||||||||||....|| .|||||||||||||||
+AKU27870.1       151 RKGDVKENVNVRSAYLHVLGDALGSVGAIAAGLVIWLFDWYAADPLISIA    200
+
+AKU27870.1       200 VSVLILKGALAVVKQTVHILMEGTPAAIDHGEVKAALSGIDGVIDVHDLH    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27870.1       201 VSVLILKGALAVVKQTVHILMEGTPAAIDHGEVKAALSGIDGVIDVHDLH    250
+
+AKU27870.1       250 IWTITSGLDSLSCHLLIEEGCDGQAVLQRAIDLIETRFHIRHATIQIEMP    299
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27870.1       251 IWTITSGLDSLSCHLLIEEGCDGQAVLQRAIDLIETRFHIRHATIQIEMP    300
+
+AKU27870.1       300 HIRHGEMEV    308
+                     |||||||||
+AKU27870.1       301 HIRHGEMEV    309
+
+
+#---------------------------------------
+#---------------------------------------

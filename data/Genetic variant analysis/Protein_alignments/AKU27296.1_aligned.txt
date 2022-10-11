@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:02:36
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-210420-0054-97393429-p1m.asequence
+#    -bsequence emboss_needle-I20220922-210420-0054-97393429-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27296.1
+# 2: AKU27296.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 345
+# Identity:     335/345 (97.1%)
+# Similarity:   335/345 (97.1%)
+# Gaps:          10/345 ( 2.9%)
+# Score: 1687.5
+# 
+#
+#=======================================
+
+AKU27296.1         1 MTVTIKDVAKRANVAPSTVSRVIADSPRISEKTKQRVREAMKELGYHPNF     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo      1 MTVTIKDVAKRANVAPSTVSRVIADSPRISEKTKQRVREAMKELGYHPNF     50
+
+AKU27296.1        51 IARSLASQMTQVIGIVMPSSADQALQNPFFPEVIRGISKAAHEKRYALQM    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo     51 IARSLASQMTQVIGIVMPSSADQALQNPFFPEVIRGISKAAHEKRYALQM    100
+
+AKU27296.1       101 STGEKEGEIYERVVEMLQGRRVDGVILLYSRQNDKLMKYLLKHGFPFVVI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo    101 STGEKEGEIYERVVEMLQGRRVDGVILLYSRQNDKLMKYLLKHGFPFVVI    150
+
+AKU27296.1       151 GKPHQKAEQVTHVDNDNVQAGKDAANWLIARGHERIAFVGGNPQYLVTVD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo    151 GKPHQKAEQVTHVDNDNVQAGKDAANWLIARGHERIAFVGGNPQYLVTVD    200
+
+AKU27296.1       201 RQTGYAAALQEAGLPYRPEYVVHAEFLQEGGQEAMKELLSLPEPPTGLVV    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo    201 RQTGYAAALQEAGLPYRPEYVVHAEFLQEGGQEAMKELLSLPEPPTGLVV    250
+
+AKU27296.1       251 ADDLMALGILKTLDEMGLGVPEDVSIVSFNNTLLAEMSRPPLTSIDIGIF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU27296.1_mo    251 ADDLMALGILKTLDEMGLGVPEDVSIVSFNNTLLAEMSRPPLTSIDIGIF    300
+
+AKU27296.1       301 QLGYEAAKHLIEKITNPNEPIKRIIIPHRLVERG----RVRGGSG    341
+                     ||||||||||||||||||||||||||||||||||    |      
+AKU27296.1_mo    301 QLGYEAAKHLIEKITNPNEPIKRIIIPHRLVERGSCARR------    339
+
+
+#---------------------------------------
+#---------------------------------------

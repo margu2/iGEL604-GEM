@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 09:19:52
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-091950-0701-71543719-p2m.asequence
+#    -bsequence emboss_needle-I20220922-091950-0701-71543719-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU25258.1
+# 2: AKU25258.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 643
+# Identity:     643/643 (100.0%)
+# Similarity:   643/643 (100.0%)
+# Gaps:           0/643 ( 0.0%)
+# Score: 3284.0
+# 
+#
+#=======================================
+
+AKU25258.1         1 MSRDKALQFIHEFENQFNKKEIEVEKGLAVELLKLHTLFFAMENEKYGEK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo      1 MSRDKALQFIHEFENQFNKKEIEVEKGLAVELLKLHTLFFAMENEKYGEK     50
+
+AKU25258.1        51 LTNIITREELKNRRGNVKETIQSLYRTLESIEPSLSGVFLNDTFKNIEET    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo     51 LTNIITREELKNRRGNVKETIQSLYRTLESIEPSLSGVFLNDTFKNIEET    100
+
+AKU25258.1       101 TLYKLVVLLERYGLTKTEYQNNEATTVFFETLIKELLASSKGYDFTPDGL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    101 TLYKLVVLLERYGLTKTEYQNNEATTVFFETLIKELLASSKGYDFTPDGL    150
+
+AKU25258.1       151 SQLMIQALKPITGSVYDGTAGIANILVDAYRYAKGKGKDISVYGQEINEE    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    151 SQLMIQALKPITGSVYDGTAGIANILVDAYRYAKGKGKDISVYGQEINEE    200
+
+AKU25258.1       201 LYVIGKLNLFVNHILPEQGDMKLGDTIRDPKWLENGRLMQFDYIMMNFPF    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    201 LYVIGKLNLFVNHILPEQGDMKLGDTIRDPKWLENGRLMQFDYIMMNFPF    250
+
+AKU25258.1       251 GLRDWGYEFAINDPYHRFELYDLPSKSQGDYSFILHALASLNQEGKAALI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    251 GLRDWGYEFAINDPYHRFELYDLPSKSQGDYSFILHALASLNQEGKAALI    300
+
+AKU25258.1       301 VPFGTLVRGAAERKIRSILLKDDVIESIVSLPNNLFSGTGIQVALLLLNK    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    301 VPFGTLVRGAAERKIRSILLKDDVIESIVSLPNNLFSGTGIQVALLLLNK    350
+
+AKU25258.1       351 HKPSHKKGKVQFINAEGDYERTRTQKYLTSKHVQKIIETLEAYENKEKYS    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    351 HKPSHKKGKVQFINAEGDYERTRTQKYLTSKHVQKIIETLEAYENKEKYS    400
+
+AKU25258.1       401 RIVTIDEIAENNWDLNPSLYFIHVELDTEFGKIVFNKKKYEGEAENLVQI    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    401 RIVTIDEIAENNWDLNPSLYFIHVELDTEFGKIVFNKKKYEGEAENLVQI    450
+
+AKU25258.1       451 GDIAEVIRGVNLPSRRQIENTDGELFPVIQIRDIENGEIRFETIDEFPIQ    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    451 GDIAEVIRGVNLPSRRQIENTDGELFPVIQIRDIENGEIRFETIDEFPIQ    500
+
+AKU25258.1       501 TRDVQRVTAQPGDILVSSRGTQQKIAVVPEYDGMILVSNMFIIIRLHSTK    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    501 TRDVQRVTAQPGDILVSSRGTQQKIAVVPEYDGMILVSNMFIIIRLHSTK    550
+
+AKU25258.1       551 EVDPVYVKRFLESPIGQYFFEAHQSGSIATVLTPNDIRSIELPLLPIEQQ    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    551 EVDPVYVKRFLESPIGQYFFEAHQSGSIATVLTPNDIRSIELPLLPIEQQ    600
+
+AKU25258.1       601 QEMIRQLEEADELIRKAYEERKKKYFDAYQKFGIGAFIRPMTK    643
+                     |||||||||||||||||||||||||||||||||||||||||||
+AKU25258.1_mo    601 QEMIRQLEEADELIRKAYEERKKKYFDAYQKFGIGAFIRPMTK    643
+
+
+#---------------------------------------
+#---------------------------------------

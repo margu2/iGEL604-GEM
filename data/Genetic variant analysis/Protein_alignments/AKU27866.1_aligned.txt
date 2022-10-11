@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 21:21:41
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-211713-0048-38322886-p1m.asequence
+#    -bsequence emboss_needle-I20220922-211713-0048-38322886-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27866.1
+# 2: AKU27866.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      44/117 (37.6%)
+# Similarity:    48/117 (41.0%)
+# Gaps:          56/117 (47.9%)
+# Score: 213.0
+# 
+#
+#=======================================
+
+AKU27866.1         1 MQRKLDYLLELQGNIIDLYEKGMPPKQIQETLFPKKYPIVFFRRRSGTPF     50
+                     ||||||||||||||||||||||||||||||||||||||||||..:.....
+AKU27866.1_mo      1 MQRKLDYLLELQGNIIDLYEKGMPPKQIQETLFPKKYPIVFFSAKEWDSL     50
+
+AKU27866.1        51 -----TLSGRSFKKSSETGKLKRTLPGNGHRPLGQAHIPFSSISNEKLLS     95
+                          .:.....|::|                                  
+AKU27866.1_mo     51 HIVRSVIQEYQAKRAS----------------------------------     66
+
+AKU27866.1        96 SPATGEIKKKRKDGSRR    112
+                                      
+AKU27866.1_mo     67 -----------------     66
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,89 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 09:25:35
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-092533-0127-50688753-p2m.asequence
+#    -bsequence emboss_needle-I20220922-092533-0127-50688753-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU25531.1
+# 2: AKU25531.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 560
+# Identity:     547/560 (97.7%)
+# Similarity:   547/560 (97.7%)
+# Gaps:           8/560 ( 1.4%)
+# Score: 2813.0
+# 
+#
+#=======================================
+
+AKU25531.1         1 MAFSSKHRSDVLQAMSEKQYDLLIIGGGITGSGIALDAISRGMTVALVEM     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo      1 MAFSSKHRSDVLQAMSEKQYDLLIIGGGITGSGIALDAISRGMTVALVEM     50
+
+AKU25531.1        51 QDFAAGTSSRSTKLVHGGLRYLKQFEVKLVAEVGRERAIVYENGPHVTTP    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo     51 QDFAAGTSSRSTKLVHGGLRYLKQFEVKLVAEVGRERAIVYENGPHVTTP    100
+
+AKU25531.1       101 EWMLLPIYRGGTFGKWSTSVGLWLYDRLAGVKPSERRTMLDARQTLEKEP    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    101 EWMLLPIYRGGTFGKWSTSVGLWLYDRLAGVKPSERRTMLDARQTLEKEP    150
+
+AKU25531.1       151 LLKRDGLLGGGYYVEYRTDDARLTIEVVKKAVELGVDAVNYVKAEQFLYD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    151 LLKRDGLLGGGYYVEYRTDDARLTIEVVKKAVELGVDAVNYVKAEQFLYD    200
+
+AKU25531.1       201 ERGRITGARCRDLIGGRVYDIRAKKVVNAAGPWVDALRDKDGSKTGKRLR    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    201 ERGRITGARCRDLIGGRVYDIRAKKVVNAAGPWVDALRDKDGSKTGKRLR    250
+
+AKU25531.1       251 LTKGVHIVIDQKRFPLKQAVYFDTPDGRMVFAIPRDGKTYVGTTDTFYDD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    251 LTKGVHIVIDQKRFPLKQAVYFDTPDGRMVFAIPRDGKTYVGTTDTFYDD    300
+
+AKU25531.1       301 DPAHPAMTEEDRDYLLQAIHYMFPSVGVTADDVESSWAGVRPLIYEEGKD    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    301 DPAHPAMTEEDRDYLLQAIHYMFPSVGVTADDVESSWAGVRPLIYEEGKD    350
+
+AKU25531.1       351 PSEISRKDEIWTSPSGLITIAGGKLTGYRKMAETVVDLVAKQLEKEEGKT    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    351 PSEISRKDEIWTSPSGLITIAGGKLTGYRKMAETVVDLVAKQLEKEEGKT    400
+
+AKU25531.1       401 FRPCQTKQLPISGGDVGGSHRLPAFIAEKAKEAARYGLTEEQGARLAKQY    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    401 FRPCQTKQLPISGGDVGGSHRLPAFIAEKAKEAARYGLTEEQGARLAKQY    450
+
+AKU25531.1       451 GTNVDRLFALSQQYDRSSGLTRETFVRLVYAIEEEMAAKPVDYFIRRTGA    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25531.1_mo    451 GTNVDRLFALSQQYDRSSGLTRETFVRLVYAIEEEMAAKPVDYFIRRTGA    500
+
+AKU25531.1       501 LLFDIDAVRREKEAVIAFMARHLGWTGEERDMYQKELDKELQRAVLGTSG    550
+                     |||||||||||||||||||||||||||||||||||||||||||||||...
+AKU25531.1_mo    501 LLFDIDAVRREKEAVIAFMARHLGWTGEERDMYQKELDKELQRAVLGDER    550
+
+AKU25531.1       551 VNDLLKEMSA    560
+                     ..        
+AKU25531.1_mo    551 SE--------    552
+
+
+#---------------------------------------
+#---------------------------------------

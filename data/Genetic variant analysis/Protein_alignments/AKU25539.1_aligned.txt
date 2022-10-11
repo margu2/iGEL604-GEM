@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Thu 22 Sep 2022 20:24:13
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220922-203200-0767-70531700-p2m.asequence
+#    -bsequence emboss_needle-I20220922-203200-0767-70531700-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU25539.1
+# 2: AKU25539.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 456
+# Identity:     455/456 (99.8%)
+# Similarity:   455/456 (99.8%)
+# Gaps:           1/456 ( 0.2%)
+# Score: 2365.0
+# 
+#
+#=======================================
+
+AKU25539.1         1 MKHLTTEWPLLKELEEQLVRTLQKVFAVLLAALLEEIDQQLAEARDKRRY     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo      1 MKHLTTEWPLLKELEEQLVRTLQKVFAVLLAALLEEIDQQLAEARDKRRY     50
+
+AKU25539.1        51 QLKDKRPTTIQTLFGEVTFRRNYYYDRQAGAYTFLLDAELGFDGAQSISP    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo     51 QLKDKRPTTIQTLFGEVTFRRNYYYDRQAGAYTFLLDAELGFDGAQSISP    100
+
+AKU25539.1       101 CLEETAVELAVECSSYRKAARTLESIVGYAVLSHEAIRQLVLEAPVSLHH    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    101 CLEETAVELAVECSSYRKAARTLESIVGYAVLSHEAIRQLVLEAPVSLHH    150
+
+AKU25539.1       151 PVSQRHGRVLFVEADGLFISRQGKGKRAKEEKILAVHEGWKRNGSQLELV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    151 PVSQRHGRVLFVEADGLFISRQGKGKRAKEEKILAVHEGWKRNGSQLELV    200
+
+AKU25539.1       201 NRRHYLHEGEGDVWERFEEWLMNEYAYDPCRDLLIINGDAASWITACREY    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    201 NRRHYLHEGEGDVWERFEEWLMNEYAYDPCRDLLIINGDAASWITACREY    250
+
+AKU25539.1       251 FGKRACFQLDRFHVARELRQCLSGHPRWREVRKKLAKQDEEGLLVELNSA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    251 FGKRACFQLDRFHVARELRQCLSGHPRWREVRKKLAKQDEEGLLVELNSA    300
+
+AKU25539.1       301 VGTLEDEGKEQQLAALIRRIESMPGCIRDYREWLSEQGVETTGMRPMGHA    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    301 VGTLEDEGKEQQLAALIRRIESMPGCIRDYREWLSEQGVETTGMRPMGHA    350
+
+AKU25539.1       351 ESVMSRFAHRVKSRRSWKDQGLRAFLRAMAARIDGIWRRNGQLVEEEETR    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    351 ESVMSRFAHRVKSRRSWKDQGLRAFLRAMAARIDGIWRRNGQLVEEEETR    400
+
+AKU25539.1       401 TAASASTKSKRIEQAKRKAGRLWADVVRQNLPCLQRSSGTPIHQALSALR    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AKU25539.1_mo    401 TAASASTKSKRIEQAKRKAGRLWADVVRQNLPCLQRSSGTPIHQALSALR    450
+
+AKU25539.1       451 DGGWV-    455
+                     ||||| 
+AKU25539.1_mo    451 DGGWV*    456
+
+
+#---------------------------------------
+#---------------------------------------

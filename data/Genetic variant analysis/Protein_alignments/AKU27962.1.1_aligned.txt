@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Wed  5 Oct 2022 09:41:07
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20221005-094105-0271-32371028-p2m.asequence
+#    -bsequence emboss_needle-I20221005-094105-0271-32371028-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AKU27262.1
+# 2: AKU27262.1_modified
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      17/111 (15.3%)
+# Similarity:    33/111 (29.7%)
+# Gaps:          44/111 (39.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+AKU27262.1         1 MCRVRNR-DRSDNVEKLQEMVQNTIENIEKAEETMQFASPEEREKIREKN     49
+                     ||||||| ..:..:...:...:..::.::|         |::|..:..:.
+AKU27262.1_mo      1 MCRVRNRMTAATMLRSCKRWCKTPLKILKK---------PKKRCSLLPRK     41
+
+AKU27262.1        50 RRREEAIAAMRAEIKDEAAARE------HGYQL-----------------     76
+                     ..|:.|.....|:.:....||:      ||...                 
+AKU27262.1_mo     42 SGRKFARKTAAAKKRSRPCARKLKTKPLHGSTATNYDKAAPMRAALFFGL     91
+
+AKU27262.1        77 -----------     76
+                                
+AKU27262.1_mo     92 PLERPDGQMVT    102
+
+
+#---------------------------------------
+#---------------------------------------
